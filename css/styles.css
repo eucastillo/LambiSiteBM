@@ -134,6 +134,11 @@ body {
     content: "\f00d";
 }
 
+.sidebarContent {
+    margin-left: 255px;
+    transition: left 0.4s ease;
+}
+
 .sidebar {
     position: fixed;
     width: 250px;

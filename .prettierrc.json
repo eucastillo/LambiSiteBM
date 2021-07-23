@@ -1,0 +1,13 @@
+{
+    "printWidth": 120,
+    "tabWidth": 3,
+    "arrowParens": "always",
+    "useTabs": true,
+    "endOfLine": "crlf",
+    "insertPragma": false,
+    "jsxBracketSameLine": true,
+    "proseWrap": "never",
+    "trailingComma": "all",
+    "semi": true,
+    "bracketSpacing": true
+}

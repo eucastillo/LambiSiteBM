@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="node_modules/datatables.net-dt/css/jquery.dataTables.min.css" />
         <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
         <!-- <link rel="stylesheet" href="node_modules/datatables.net-bs5/css/dataTables.bootstrap5.min.css" /> -->
+        
         <link rel="stylesheet" href="css/styles.css" />
         <!-- endbuild -->
         <link rel="icon" href="https://lambi.com.mx/portal/wp-content/uploads/2019/05/cropped-favicon-32x32.png" sizes="32x32">
@@ -45,16 +46,14 @@
     </nav> -->
 
         <header class="jumbotron">
-            <div class="container">
-                <div class="row row-header d-flex align-items-center justify-content-center">
-                    <div class="col-12 col-sm-3 align-self-center">
-                        <img src="img/logotipo.png" class="img-fluid" />
-                    </div>
-                    <div class="col-12 col-sm-6 d-flex align-items-center justify-content-center">
-                        <!-- <div class="border rounded border-dark p-4"> -->
-                        <h1 class="fw-bold">Plataforma digital de Benchmarking</h1>
-                        <!-- </div> -->
-                    </div>
+            <div class="row row-header d-flex align-items-center justify-content-center">
+                <div class="col-12 col-sm-3 align-self-center">
+                    <img src="img/logotipo.png" class="img-fluid" />
+                </div>
+                <div class="col-12 col-sm-6 d-flex align-items-center justify-content-center">
+                    <!-- <div class="border rounded border-dark p-4"> -->
+                    <h1 class="fw-bold">Plataforma digital de Benchmarking</h1>
+                    <!-- </div> -->
                 </div>
             </div>
         </header>
@@ -93,7 +92,7 @@
                 </li>
             </ul>
         </nav>
-        <div class="container">
+        <div class="container sidebarContent">
             <div class="row row-content">
                 <div class="col">
                     <div class="accordion" id="accordionExample">
@@ -106,297 +105,8 @@
                             <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="heading1">
                                 <div class="accordion-body">
                                     <form class="row g-1 d-flex justify-content-center">
-                                        <div class="accordion" id="accordionComparative">
-                                            <div class="accordion-item">
-                                                <h2 class="accordion-header" id="headingComparative1">
-                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseComparative1" aria-expanded="true" aria-controls="collapseComparative1">
-                                                        
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseComparative1" class="accordion-collapse collapse show" aria-labelledby="headingComparative1">
-                                                    <div class="accordion-body">
-                                                        <div class="row">
-                                                            <div class="col">
-                                                                <div class="card">
-                                                                    <div class="card-header">
-                                                                        Muestra 1
-                                                                    </div>
-                                                                    <div class="card-body">
-                                                                        <div class="col">
-                                                                            <label for="inputPlataformaM1" class="form-label">Plataforma</label>
-                                                                            <select id="inputPlataformaM1" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col">
-                                                                            <label for="inputTallaM1" class="form-label">Talla</label>
-                                                                            <select id="inputTallaM1" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col">
-                                                                            <label for="inputMarcaM1" class="form-label">Marca</label>
-                                                                            <select id="inputMarcaM1" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col">
-                                                                <div class="card">
-                                                                    <div class="card-header">
-                                                                        Muestra 2
-                                                                    </div>
-                                                                    <div class="card-body">
-                                                                        <div class="col">
-                                                                            <label for="inputPlataformaM2" class="form-label">Plataforma</label>
-                                                                            <select id="inputPlataformaM2" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col">
-                                                                            <label for="inputTallaM2" class="form-label">Talla</label>
-                                                                            <select id="inputTallaM2" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col">
-                                                                            <label for="inputMarcaM2" class="form-label">Marca</label>
-                                                                            <select id="inputMarcaM2" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item">
-                                                <h2 class="accordion-header" id="headingComparative2">
-                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseComparative2" aria-expanded="true" aria-controls="collapseComparative2">
-                                                        
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseComparative2" class="accordion-collapse collapse" aria-labelledby="headingComparative2">
-                                                    <div class="accordion-body">
-                                                        <div class="row">
-                                                            <div class="col">
-                                                                <div class="card">
-                                                                    <div class="card-header">
-                                                                        Muestra 3
-                                                                    </div>
-                                                                    <div class="card-body">
-                                                                        <div class="col">
-                                                                            <label for="inputPlataformaM3" class="form-label">Plataforma</label>
-                                                                            <select id="inputPlataformaM3" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col">
-                                                                            <label for="inputTallaM3" class="form-label">Talla</label>
-                                                                            <select id="inputTallaM3" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col">
-                                                                            <label for="inputMarcaM3" class="form-label">Marca</label>
-                                                                            <select id="inputMarcaM3" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col">
-                                                                <div class="card">
-                                                                    <div class="card-header">
-                                                                        Muestra 4
-                                                                    </div>
-                                                                    <div class="card-body">
-                                                                        <div class="col">
-                                                                            <label for="inputPlataformaM4" class="form-label">Plataforma</label>
-                                                                            <select id="inputPlataformaM4" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col">
-                                                                            <label for="inputTallaM4" class="form-label">Talla</label>
-                                                                            <select id="inputTallaM4" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col">
-                                                                            <label for="inputMarcaM4" class="form-label">Marca</label>
-                                                                            <select id="inputMarcaM4" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item">
-                                                <h2 class="accordion-header" id="headingComparative3">
-                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseComparative3" aria-expanded="true" aria-controls="collapseComparative3">
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseComparative3" class="accordion-collapse collapse" aria-labelledby="headingComparative3">
-                                                    <div class="accordion-body">
-                                                        <div class="row">
-                                                            <div class="col">
-                                                                <div class="card">
-                                                                    <div class="card-header">
-                                                                        Muestra 5
-                                                                    </div>
-                                                                    <div class="card-body">
-                                                                        <div class="col">
-                                                                            <label for="inputPlataformaM5" class="form-label">Plataforma</label>
-                                                                            <select id="inputPlataformaM5" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col">
-                                                                            <label for="inputTallaM5" class="form-label">Talla</label>
-                                                                            <select id="inputTallaM5" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col">
-                                                                            <label for="inputMarcaM5" class="form-label">Marca</label>
-                                                                            <select id="inputMarcaM5" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col">
-                                                                <div class="card">
-                                                                    <div class="card-header">
-                                                                        Muestra 6
-                                                                    </div>
-                                                                    <div class="card-body">
-                                                                        <div class="col">
-                                                                            <label for="inputPlataformaM6" class="form-label">Plataforma</label>
-                                                                            <select id="inputPlataformaM6" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col">
-                                                                            <label for="inputTallaM6" class="form-label">Talla</label>
-                                                                            <select id="inputTallaM6" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col">
-                                                                            <label for="inputMarcaM6" class="form-label">Marca</label>
-                                                                            <select id="inputMarcaM6" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="accordion-item">
-                                                <h2 class="accordion-header" id="headingComparative4">
-                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseComparative4" aria-expanded="true" aria-controls="collapseComparative4">
-                                                    </button>
-                                                </h2>
-                                                <div id="collapseComparative4" class="accordion-collapse collapse" aria-labelledby="headingComparative4">
-                                                    <div class="accordion-body">
-                                                        <div class="row">
-                                                            <div class="col">
-                                                                <div class="card">
-                                                                    <div class="card-header">
-                                                                        Muestra 7
-                                                                    </div>
-                                                                    <div class="card-body">
-                                                                        <div class="col">
-                                                                            <label for="inputPlataformaM7" class="form-label">Plataforma</label>
-                                                                            <select id="inputPlataformaM7" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col">
-                                                                            <label for="inputTallaM7" class="form-label">Talla</label>
-                                                                            <select id="inputTallaM7" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col">
-                                                                            <label for="inputMarcaM7" class="form-label">Marca</label>
-                                                                            <select id="inputMarcaM7" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col">
-                                                                <div class="card">
-                                                                    <div class="card-header">
-                                                                        Muestra 8
-                                                                    </div>
-                                                                    <div class="card-body">
-                                                                        <div class="col">
-                                                                            <label for="inputPlataformaM8" class="form-label">Plataforma</label>
-                                                                            <select id="inputPlataformaM8" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col">
-                                                                            <label for="inputTallaM8" class="form-label">Talla</label>
-                                                                            <select id="inputTallaM8" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                        <div class="col">
-                                                                            <label for="inputMarcaM8" class="form-label">Marca</label>
-                                                                            <select id="inputMarcaM8" class="form-select">
-                                                                                <option selected>Choose...</option>
-                                                                                <option>...</option>
-                                                                            </select>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                        <div class="row">
+                                            
                                         </div>
                                         <div class="row p-4">
                                             <div class="col border rounded-3 checkArea">
@@ -462,8 +172,7 @@
         <script src="node_modules/xlsx/dist/xlsx.full.min.js"></script>
         <script src="node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
         <script src="node_modules/datatables.net-dt/js/dataTables.dataTables.min.js"></script>
-        <script src="node_modules/datatables.net-colreorder/js/dataTables.colReorder.min.js"></script>
-        
+        <script src="node_modules/datatables.net-colreorder/js/dataTables.colReorder.min.js"></script>        
         <!-- endbuild -->
         <script src="js/scripts.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
